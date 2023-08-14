@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="HOME"
+            android:textAlignment="center"
+            android:textSize="50dp"></TextView>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgbtn_bluetooth"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#f3bb72"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/bluetooth"
+                android:layout_gravity="center"
+                android:textSize="30dp"></ImageButton>
+
+            <Button
+                android:id="@+id/btn_bluetooth"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#f3bb72"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="bluetooth"
+                android:textColor="#fff"
+                android:textSize="30dp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgbtn_howToUse"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#ff85a7"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/howtouse"
+                android:padding="10dp"
+                android:textSize="30dp"></ImageButton>
+
+            <Button
+                android:id="@+id/btn_howToUse"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#ff85a7"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="howtouse"
+                android:textColor="#fff"
+                android:textSize="30dp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgbtn_setting"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#7bc3ed"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/setting"
+                android:textSize="30dp"></ImageButton>
+
+            <Button
+                android:id="@+id/btn_setting"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#7bc3ed"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="setting"
+                android:textColor="#fff"
+                android:textSize="30dp"></Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgbtn_imagebutton2"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#9ddc62"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:scaleType="centerInside"
+                android:textSize="30dp"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/imgbtn_imagebutton3"
+                android:layout_width="100dp"
+                android:layout_height="153dp"
+                android:layout_weight="3"
+                android:background="#9ddc62"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="30dp"></ImageButton>
+        </LinearLayout>
+
+        <!--
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="50sp"
+            android:layout_weight="3"
+            ></TextView>
+    -->
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    tools:context=".HowtouseActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:background="#ff85a7"
+        android:textColor="#fff"
+        android:text="howtouse"/>
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal" >
+
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/howtousefirst" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/howtousesecond"
+                android:contentDescription="@string/todo" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                app:srcCompat="@drawable/howtousethird"
+                android:contentDescription="@string/todo" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

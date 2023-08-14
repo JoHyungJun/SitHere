@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3bb72"
+    android:layout_gravity="center"
+    tools:context=".BeaconActivity">
+
+
+    <TextView
+        android:id="@+id/tv_isConnect"
+        android:layout_width="223dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="254dp"
+        android:fontFamily="@font/nanumsquare"
+        android:gravity="center"
+        android:text="[!] 자리에 앉으셨나요?\n\n\n자리에 착석하시면\n어플을 완전히\n종료해주세요!"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>
